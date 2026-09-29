@@ -1,0 +1,53 @@
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Node / Frontend Build
+node_modules/
+dist/
+build/
+.npm/
+
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Databases & Runtime Storage
+*.db
+*.sqlite
+*.sqlite3
+backend/storage/*.db
+artifacts/sessions/*
+!artifacts/sessions/.gitkeep
+
+# External reference repositories
+reference-repos/
+
+# Logs & Temporary files
+*.log
+logs/
+temp/
+tmp/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
