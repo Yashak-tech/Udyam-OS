@@ -287,7 +287,7 @@ The single prototype Office Kit workflow bridges phone approval directly to lapt
 
 ## 7. Error & Deterministic Fallback Strategy
 
-To guarantee **100% demo uptime** during live founder walkthroughs:
+To guarantee **100% execution uptime** during live founder walkthroughs:
 
 | Failure Mode | Detection | System Behavior & Fallback |
 | :--- | :--- | :--- |

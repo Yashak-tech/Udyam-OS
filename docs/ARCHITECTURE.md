@@ -1,8 +1,8 @@
 # Udyam OS — System Architecture Specification
 
 **Project:** Udyam OS  
-**Milestone:** Production-Ready Working Prototype  
-**Status:** System Architecture Blueprint
+**Milestone:** Production-Ready Core Prototype  
+**Status:** Phase 4 Architectural Blueprint (Frozen for Implementation)
 
 ---
 
@@ -196,4 +196,4 @@ backend/
 ### 5.7 Error & Fallback Flow
 1. **Network / Rate-Limit Guard:** If LLM provider responds with `429 Too Many Requests` or times out (>20s), the model adapter catches the exception.
 2. **Deterministic Fallback:** The system injects pre-calibrated, high-quality domain responses for the specific prompt, logging a warning.
-3. **Integrity Intact:** The pipeline continues without breaking, ensuring live walkthroughs and execution remain smooth and reliable.
+3. **Integrity Intact:** The pipeline continues without breaking, ensuring live demonstration and execution remains smooth and reliable.

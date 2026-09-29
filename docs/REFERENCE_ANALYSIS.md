@@ -1,7 +1,7 @@
 # Udyam OS — Reference Repositories Analysis & Architectural Blueprint
 
 **Project:** Udyam OS  
-**Goal:** High-velocity prototype proving `Founder → iQOO Phone → Udyam OS → AI Workforce → Real Business Outputs → Founder Approval`  
+**Goal:** High-velocity prototype proving `Founder → Phone → Udyam OS → AI Workforce → Real Business Outputs → Founder Approval`  
 **Workflow:** `IDEA → LAUNCH`  
 **Phase:** Phase 2 (Research & Reference Analysis)
 
@@ -86,7 +86,7 @@ By dissecting five open-source reference repositories—**AIOS**, **Cerebrum**, 
   - Autonomous infinite agent-to-agent delegation loops (which cause high latency, token burns, and hallucinations).
   - Heavy RAG vectorstore integrations and telemetry baggage.
 * **Simplification Strategy:**
-  - Use a clean **Directed Acyclic Graph (DAG) / State Machine** for the venture workflow where each stage invokes a specialized agent with strict inputs/outputs, halting for **iQOO Founder Approval** before proceeding.
+  - Use a clean **Directed Acyclic Graph (DAG) / State Machine** for the venture workflow where each stage invokes a specialized agent with strict inputs/outputs, halting for **Founder Approval** before proceeding.
 
 ---
 
@@ -202,7 +202,7 @@ Based on our analysis, Udyam OS should synthesize the best elements into a clean
 ### 4.2 Recommended Orchestration Pattern
 * **Foundation:** Deterministic Pipeline / State Machine with Pause-for-Approval (inspired by CrewAI Flows and human feedback).
 * **Why NOT Free-Form Agent-to-Agent Chatter:**
-  - Free-form multi-agent conversations often loop, waste tokens, generate unpredictable outputs, and take too long during a live walkthrough.
+  - Free-form multi-agent conversations often loop, waste tokens, generate unpredictable outputs, and take too long during live founder execution.
 * **The `IDEA → LAUNCH` Stage Pipeline:**
   1. **Phase 1: Founder Intake & Clarification**
      - Founder speaks or types an idea on the iQOO phone.

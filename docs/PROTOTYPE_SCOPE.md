@@ -2,8 +2,8 @@
 
 **Project Name:** Udyam OS  
 **Milestone:** Production-Ready Working Prototype  
-**Target Device:** iQOO Smartphone (Primary Command Center) + Laptop (Office Kit Bridge)  
-**Core Thesis:** `Founder → iQOO Phone → Udyam OS → AI Workforce → Real Business Outputs → Founder Approval → Launch Package`  
+**Target Device:** Smartphone (Primary Command Center) + Laptop (Office Kit Bridge)  
+**Core Thesis:** `Founder → Phone → Udyam OS → AI Workforce → Real Business Outputs → Founder Approval → Launch Package`  
 **Core Loop:** `IDEA → LAUNCH`  
 **Document Version:** 1.0 (Phase 3 Specification)
 
@@ -14,10 +14,10 @@
 The objective of this prototype is **NOT** to build a comprehensive multi-tenant SaaS or an autonomous conglomerate.
 
 The sole, uncompromising objective is:
-> **Build a rock-solid, demo-ready working prototype that proves a solo founder can take a raw business idea to an approved, verified launch package entirely driven from an iQOO smartphone via an autonomous 4-agent workforce.**
+> **Build a rock-solid, demo-ready working prototype that proves a solo founder can take a raw business idea to an approved, verified launch package entirely driven from a mobile smartphone command center via an autonomous 4-agent workforce.**
 
-### Core Product Criteria:
-1. **Phone-First Authenticity:** The iQOO phone is the active executive controller—capturing multimodal inputs (voice/camera), streaming live workforce operations, receiving push approval cards, and executing sign-off—not just an iframe or mobile web view.
+### Core Success Criteria:
+1. **Phone-First Authenticity:** The mobile phone is the active executive controller—capturing multimodal inputs (voice/camera), streaming live workforce operations, receiving push approval cards, and executing sign-off—not just an iframe or mobile web view.
 2. **Real Artifact Generation:** The workforce produces tangible, inspectable files (`market_research.md`, `prd.md`, interactive `landing_page/index.html`, `launch_strategy.md`), not conversational chat bubbles.
 3. **Deterministic Orchestration:** A single central engine (**Udyam Manager**) routes structured data across a shared company context without chaotic, token-wasting agent-to-agent loops.
 4. **Human-in-the-Loop Governance:** The founder holds ultimate operational authority via a decisive on-device approval gate.
@@ -325,7 +325,7 @@ The prototype will be considered **Complete and Demo-Ready** when all of the fol
 3. **Mobile Phone Responsiveness:** The mobile UI on the iQOO device smoothly streams live agent cards, renders the artifact preview, and presents the approval dialog without layout glitches.
 4. **Approval Gate Enforcement:** The pipeline strictly halts at the verification stage and does NOT produce the final launch package until the founder physically clicks **Approve** on the iQOO phone.
 5. **Office Kit Trigger:** Approving on the phone immediately causes the desktop/laptop environment to display the completed artifacts.
-6. **Graceful Error Handling & Fallback:** If an LLM API call experiences rate limiting or network latency, the system seamlessly uses curated fallback demo data to guarantee zero failure during live walkthroughs.
+6. **Graceful Error Handling & Fallback:** If an LLM API call experiences rate limiting or network latency, the system seamlessly uses curated fallback demo data to guarantee zero failure during live founder walkthroughs.
 
 ---
 

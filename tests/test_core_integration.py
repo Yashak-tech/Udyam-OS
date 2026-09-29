@@ -11,7 +11,7 @@ from backend.approvals.manager import approval_manager
 @pytest.mark.asyncio
 async def test_clinic_reminder_saas_end_to_end():
     """
-    Automated integration test for the ClinicPing demo scenario:
+    Automated integration test for the ClinicPing venture scenario:
     'I want to launch an AI appointment-reminder SaaS for small clinics.'
     """
     emitted_events = []
