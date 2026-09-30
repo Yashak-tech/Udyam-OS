@@ -1,5 +1,9 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
-export const WS_BASE_URL = import.meta.env.VITE_WS_BASE_URL || API_BASE_URL.replace(/^http/, 'ws');
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (import.meta.env.PROD ? 'https://udyam-os.onrender.com' : 'http://localhost:8000');
+export const WS_BASE_URL = import.meta.env.VITE_WS_BASE_URL || (
+  API_BASE_URL.startsWith('https://') 
+    ? API_BASE_URL.replace(/^https:\/\//, 'wss://') 
+    : API_BASE_URL.replace(/^http:\/\//, 'ws://')
+);
 
 class ApiClient {
   async _request(endpoint, options = {}) {
